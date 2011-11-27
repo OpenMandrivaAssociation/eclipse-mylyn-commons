@@ -7,7 +7,7 @@
 Name: eclipse-mylyn-commons
 Summary: Common libraries for Eclipse Mylyn
 Version: 3.5.1
-Release: 1
+Release: 3
 License: EPL and ASL 2.0
 URL: http://www.eclipse.org/mylyn
 
