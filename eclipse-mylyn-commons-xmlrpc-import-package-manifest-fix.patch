@@ -1,0 +1,25 @@
+### Eclipse Workspace Patch 1.0
+#P org.eclipse.mylyn.commons.xmlrpc
+Index: META-INF/MANIFEST.MF
+===================================================================
+RCS file: /cvsroot/mylyn/org.eclipse.mylyn.commons/org.eclipse.mylyn.commons.xmlrpc/META-INF/MANIFEST.MF,v
+retrieving revision 1.2
+diff -u -r1.2 MANIFEST.MF
+--- org.eclipse.mylyn.commons.xmlrpc/META-INF/MANIFEST.MF	26 Jun 2010 07:37:23 -0000	1.2
++++ org.eclipse.mylyn.commons.xmlrpc/META-INF/MANIFEST.MF	15 Apr 2011 20:21:43 -0000
+@@ -6,9 +6,13 @@
+ Bundle-Vendor: %Bundle-Vendor
+ Require-Bundle: org.eclipse.core.runtime,
+  org.eclipse.mylyn.commons.core;bundle-version="[3.0.0,4.0.0)",
+- org.eclipse.mylyn.commons.net;bundle-version="[3.0.0,4.0.0)",
+- org.apache.xmlrpc;bundle-version="[3.0.0,4.0.0)"
++ org.eclipse.mylyn.commons.net;bundle-version="[3.0.0,4.0.0)"
+ Bundle-ActivationPolicy: lazy
+ Export-Package: org.eclipse.mylyn.internal.commons.xmlrpc;x-internal:=true
+ Bundle-RequiredExecutionEnvironment: J2SE-1.5
+ Bundle-Localization: plugin
++Import-Package: org.apache.xmlrpc,
++ org.apache.xmlrpc.client,
++ org.apache.xmlrpc.serializer,
++ org.apache.xmlrpc.common,
++ org.apache.xmlrpc.util

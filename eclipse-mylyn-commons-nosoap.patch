@@ -1,0 +1,89 @@
+--- org.eclipse.mylyn.commons-feature/feature.xml.orig	2011-04-13 15:54:02.826971266 -0400
++++ org.eclipse.mylyn.commons-feature/feature.xml	2011-04-13 15:55:02.994219073 -0400
+@@ -43,13 +43,6 @@
+          unpack="false"/>
+ 
+    <plugin
+-         id="org.eclipse.mylyn.commons.soap"
+-         download-size="0"
+-         install-size="0"
+-         version="0.0.0"
+-         unpack="false"/>
+-
+-   <plugin
+          id="org.eclipse.mylyn.commons.ui"
+          download-size="0"
+          install-size="0"
+@@ -85,37 +78,6 @@
+          unpack="false"/>
+ 
+    <plugin
+-         id="org.apache.axis"
+-         download-size="0"
+-         install-size="0"
+-         version="0.0.0"/>
+-
+-   <plugin
+-         id="javax.wsdl"
+-         download-size="0"
+-         install-size="0"
+-         version="0.0.0"
+-         unpack="false"/>
+-
+-   <plugin
+-         id="javax.xml.rpc"
+-         download-size="0"
+-         install-size="0"
+-         version="0.0.0"/>
+-
+-   <plugin
+-         id="javax.xml.soap"
+-         download-size="0"
+-         install-size="0"
+-         version="0.0.0"/>
+-
+-   <plugin
+-         id="org.apache.commons.discovery"
+-         download-size="0"
+-         install-size="0"
+-         version="0.0.0"/>
+-
+-   <plugin
+          id="org.apache.commons.logging"
+          download-size="0"
+          install-size="0"
+@@ -123,20 +85,6 @@
+          unpack="false"/>
+ 
+    <plugin
+-         id="javax.activation"
+-         download-size="0"
+-         install-size="0"
+-         version="0.0.0"
+-         unpack="false"/>
+-
+-   <plugin
+-         id="javax.mail"
+-         download-size="0"
+-         install-size="0"
+-         version="0.0.0"
+-         unpack="false"/>
+-
+-   <plugin
+          id="org.apache.commons.codec"
+          download-size="0"
+          install-size="0"
+@@ -158,13 +106,6 @@
+          unpack="false"/>
+ 
+    <plugin
+-         id="javax.xml"
+-         download-size="0"
+-         install-size="0"
+-         version="0.0.0"
+-         unpack="false"/>
+-
+-   <plugin
+          id="org.eclipse.mylyn.commons.repositories"
+          download-size="0"
+          install-size="0"
