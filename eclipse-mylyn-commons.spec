@@ -9,7 +9,7 @@ Summary: Common libraries for Eclipse Mylyn
 Version: 3.5.1
 Release: 3
 License: EPL and ASL 2.0
-URL: http://www.eclipse.org/mylyn
+URL: https://www.eclipse.org/mylyn
 
 # bash fetch-eclipse-mylyn-commons.sh
 Source0: eclipse-mylyn-commons-R_3_5_1-fetched-src.tar.bz2
